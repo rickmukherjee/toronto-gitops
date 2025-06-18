@@ -20,9 +20,9 @@ org_settings:
     server_url: $FLEET_URL
   org_info:
     org_name: Toronto Jays
-    webhook_settings:
-      activities_webhook:
-        enable_activities_webhook: true
-        destination_url: https://example.com
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://example.com
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
